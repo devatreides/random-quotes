@@ -1,0 +1,28 @@
+{
+    "name": "tombenevides/random-quotes",
+    "description": "A simple package to get quotes",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tombenevides\\RandomQuotes\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tom Benevides",
+            "email": "tom@email.com"
+        }
+    ],
+    "require-dev": {
+        "pestphp/pest": "^1.22"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.5"
+    }
+}
